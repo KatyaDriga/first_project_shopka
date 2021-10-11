@@ -1,0 +1,67 @@
+    body {
+        display: flex;
+        width: 1920px;
+        /* height: 2360px; */
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 88px;
+    }
+    
+    #logo {
+        position: relative;
+        width: 40px;
+        height: 40px;
+    }
+    
+    #logo img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .shopka {
+        width: 124px;
+        height: 36px;
+    }
+    
+    .search {
+        width: 668px;
+        height: 48px;
+    }
+    
+    .main_content {}
+    
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .filter {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 64px;
+        padding-top: 96px;
+    }
+    
+    .categories {
+        width: 355px;
+        height: 1928px;
+        padding: 176px 24px 256px 213px;
+    }
+    
+    .product_grid {
+        width: 1114px;
+        height: 1612px;
+        padding: 200px 214px 548px 592px;
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        height: 292px;
+    }
