@@ -1,3 +1,9 @@
+    * {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+    }
+    
     body {
         max-width: 1920px;
         margin: 0 auto;
@@ -9,6 +15,30 @@
         flex-direction: row;
         justify-content: space-around;
         height: 88px;
+    }
+    
+    .shopka {
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        color: #0C2146;
+    }
+    
+    .logo {
+        font-family: Red Hat Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 10px;
     }
     
     #logo {
@@ -24,8 +54,37 @@
     }
     
     .search {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #EDEDF0;
+        border-radius: 99px;
         width: 668px;
         height: 48px;
+        border: none;
+        color: rgba(25, 25, 29, 1);
+    }
+    
+    .search_input {
+        background-color: #EDEDF0;
+        width: 615px;
+        height: 30px;
+        border: none;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    
+    .loupe_img {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    
+    .cross_img {
+        margin-right: 15px;
     }
     
     .filter_unit {
