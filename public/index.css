@@ -1,0 +1,135 @@
+    body {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 88px;
+    }
+    
+    #logo {
+        position: relative;
+        width: 40px;
+        height: 40px;
+    }
+    
+    #logo img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .search {
+        width: 668px;
+        height: 48px;
+    }
+    
+    .filter_unit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content {
+        display: flex;
+        width: 1490px;
+        margin: 0 auto;
+    }
+    
+    .filter {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 64px;
+        padding-top: 96px;
+    }
+    
+    .categories {
+        flex-basis: 20%;
+    }
+    
+    .test-list {
+        display: none;
+    }
+    
+    .open>ul {
+        display: block;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .product_grid {
+        flex-basis: 80%;
+    }
+    
+    .top_of_product_grid {
+        display: flex;
+        justify-content: space-around;
+        height: 30px;
+    }
+    
+    .related {
+        display: flex;
+        align-self: start;
+        justify-content: space-between;
+        height: 30px;
+        margin-top: 40px;
+    }
+    
+    .product_cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1115px;
+    }
+    
+    .product_card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 260px;
+        height: 470px;
+    }
+    
+    .product_img {
+        width: 230px;
+        height: 225px;
+    }
+    
+    .bottom_product_card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    footer {
+        height: 292px;
+    }
+    
+    .footer {
+        width: 1095px;
+        height: 135px;
+    }
+    
+    .customer_business {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content_of_footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .grey_div {
+        display: flex;
+        height: 50px;
+        background-color: rgba(230, 230, 234, 1);
+    }
